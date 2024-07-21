@@ -147,6 +147,10 @@
   border: 1px solid #808080;
 }
 
+.form-input:hover {
+  border-color: #000;
+}
+
 .form-fieldset {
   width: 360px;
   height: 64px;
@@ -156,6 +160,10 @@
   border-radius: 4px;
   border: 1px solid #808080;
   margin-bottom: 24px;
+}
+
+.form-fieldset:hover {
+  border-color: #000;
 }
 
 .fieldset-input {
@@ -178,5 +186,9 @@
   line-height: 24px;
   letter-spacing: 0.64px;
   border: none;
+}
+
+.form-btn:hover {
+  background-color: #6c8cff;
 }
 /* ====================================================================== */
