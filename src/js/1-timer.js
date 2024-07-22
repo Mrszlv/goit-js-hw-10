@@ -66,7 +66,7 @@ function handleBtnClick(event) {
         if (different <= 0) {
             dateTimeInput.disabled = false;
             clearInterval(interval);
-            updateTimer({ day: 0, hou: 0, min: 0, sec: 0 });
+            updateTimer({ days: 0, hours: 0, minutes: 0, seconds: 0 });
             return;
         }
         const timerGo = convertMs(different);
